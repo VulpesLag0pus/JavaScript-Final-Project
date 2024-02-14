@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+<head>
+  <link href="styles.css" rel="stylesheet" />
+  <title>Weather App</title>
+</head>
+<body>
+  <header>
+    <div id="city-wrapper">
+      <h1 id="city"></h1>
+    </div>
+    <div id="weather-search">
+      <input id="search" type="text" placeholder="Search by city" />
+       <input id="submit" type="submit" onclick="fetchWeather()" value="Search" />
+     </div>
+  </header>
+    <main>
+      <div id="index-1" class="index"></div>
+      <div id="index-2" class="index"></div>
+      <div id="index-3" class="index"></div>
+      <div id="index-4" class="index"></div>
+      <section id="side-nav">
+        <div id="wrapper-today">
+          <div id="image-today">
+          </div>
+          <p id="deg-today"></p>
+          <h3 id="des-today"></h3>
+        </div>
+        <div id="wrapper-1" class="wrapper">
+          <div>
+            <h3 id="day-1" class="day"></h3>
+            <p id="des-1" class="des"></p>
+          </div>
+          <p id="deg-1" class="deg"></p>
+        </div>
+        <div id="wrapper-2" class="wrapper">
+          <div>
+            <h3 id="day-2" class="day"></h3>
+            <p id="des-2" class="des"></p>
+          </div>
+          <p id="deg-2" class="deg"></p>
+        </div>
+        <div id="wrapper-3" class="wrapper">
+          <div>
+            <h3 id="day-3" class="day"></h3>
+            <p id="des-3" class="des"></p>
+          </div>
+          <p id="deg-3" class="deg"></p>
+        </div>
+        <div id="wrapper-4" class="wrapper">
+          <div>
+            <h3 id="day-4" class="day"></h3>
+            <p id="des-4" class="des"></p>
+          </div>
+          <p id="deg-4" class="deg"></p>
+        </div>
+      </section>
+      <section id="widgets">
+        <div id="widget-1" class="widget">
+
+        </div>
+        <div id="widget-2" class="widget">
+  
+        </div>
+        <div id="widget-3" class="widget">
+
+        </div>
+        <div id="widget-4" class="widget">
+
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

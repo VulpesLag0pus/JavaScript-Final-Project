@@ -1,0 +1,202 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+body {
+    background-image: url(https://images.pexels.com/photos/15057986/pexels-photo-15057986/free-photo-of-natuur-berg-italie-wildernis.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Inter';
+    height: 100vh;
+}
+header{
+    display: flex;
+    width: 100%;
+    background-color: #D9D9D9;
+    height: 1.6cm;
+}
+#search{
+    right: 3.7cm;
+    position: absolute;
+    margin: 0.4cm 0 0 0;
+    width: 22rem;
+    height: 0.8cm;
+    background-color: white;
+    border: none;
+    font-family: 'Inter';
+    font-size: 19px;
+    border-radius: 0.4cm 0 0 0.4cm;
+    padding-left: 0.4cm;
+}
+#submit{
+    right: 0.4cm;
+    position: absolute;
+    height: 0.8cm;
+    width: 7.3rem;
+    background-color: white;
+    border: none;
+    border-radius: 0 0.4cm 0.4cm 0 ;
+    font-family: 'Inter';
+    font-size: 19px;
+    cursor: pointer;
+    margin: 0.4cm 0;
+}
+#city{
+    font-family: 'Inter';
+    font-size: 50px;
+    font-weight: 1;
+}
+#side-nav{
+    background-color: rgb(217,217,217,0.4);
+    width: 360px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    transform: translateY(-1.6cm);
+    opacity: 0%;
+    transition: 0.2s;
+}
+#wrapper-today{
+    height: 20vh;
+    background-color: #D9D9D9;
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    transform: translateY(0.8cm);
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+#wrapper-1{
+    margin-top: 0%;
+}
+#image-today{
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    background-color: rgb(175, 184, 187);
+    border-radius: 50%;
+}
+#image-today > img{
+    height: 100px;
+    width: 100px;
+}
+#deg-today{
+    font-size: 70px;
+    margin: auto;
+}
+#des-today{
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 25px;
+}
+#city{
+    margin: auto;
+    text-align: center;
+}
+#city-wrapper{
+    width: 360px;
+}
+#widgets{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 70vh;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0%;
+    transition: 0.5s;
+}
+#widget-1{
+    opacity: 100%;
+    transition: 0.3s;
+}
+#wrapper-4{
+    margin-bottom: 5vh;
+}
+#index-4{
+    bottom: 6.9833vh;
+}
+#index-3{
+    bottom: 22.49823vh;
+}
+#index-2{
+    bottom: 37.99816vh;
+}
+#index-1{
+    bottom: 53.49809vh;
+}
+
+.widget > p{
+    padding-top: 3.61vh;
+    font-size: 69px;
+}
+.wrapper{
+    height: 10.5vh;
+    background-color: #D9D9D9;
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.wrapper > div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.des{
+    margin-top: auto;
+}
+.deg{
+    width: 50%;
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 50px;
+    padding-right: 10px;
+
+}
+.day{
+    align-self: flex-start;
+
+}
+.widget{
+    height: 26vh;
+    width: 26vh;
+    background-color: rgb(217,217,217,0.4);
+    margin-bottom: 5vh;
+    margin-right: 5vh;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    transform: translateX(8vh);
+    backdrop-filter: blur(10px);
+}
+.index{
+    position: absolute;
+    background-color: transparent;
+    width: 10.2857px;
+    height: 6.53333vh;  
+    z-index: 100;
+    left: -9px;
+    border-radius: 5.1428px;
+    transition: 0.3s;
+}
